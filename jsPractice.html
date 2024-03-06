@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Allah is one</h1>
+    <script>
+        //Data Types  number 1233, string  'moeez123@', boolean  true false, array [] , object {} 
+        // var fully global changeAble, let changeAble, const notChangeAble
+        // null, undefined, ''
+        let myClass = null;
+        console.log(typeof myClass);
+        const myName = 'Moeez@12'
+        console.log("my name is", myName);
+        let rollNo = '22';
+        console.log('my roll no', rollNo);
+        rollNo = 40;
+        console.log('my roll no 2nd', rollNo);
+        rollNo = true;
+        console.log('my roll', rollNo);
+        // ------------------ Array ----------------
+        const myData = [2, 'moeez', true,]
+        const citiesName = ['fsd', 'lhr', 'isl', 'karachi']
+        console.log('city Name', citiesName);
+        console.log('Array', myData);
+        console.log('Array Type', Array.isArray(myData));
+        console.log('my name is', myData[1]);
+        console.log('my rollNo is', myData[0]);
+        // -----------------OBJECT -------------------
+        const myClassData = { rollNo: 2, stdName: 'moeez', isStudent: true }
+        console.log('myClassDataInObj', myClassData);
+        console.log('myClassDataInObj', myClassData.stdName);
+
+        const studentData = [{ rollNo: 2, stdName: 'moeez', isStudent: true }, { rollNo: 25, stdName: 'waseem', isStudent: true }, { rollNo: 3, stdName: 'sharukh', isStudent: true }, 'waseem']
+        console.log('studentData', studentData);
+
+        //---------------- Array Methods ---------------
+        const store = []
+        store.push('apple') // data enter in array
+        store.push('graps')
+        store.push('banna')
+        store.push('apple')
+        store.push('Patato')
+        store.push(40)
+        console.log('my store with push', store);
+        store.pop() // data remove from end
+        store.pop() // data remove
+        store.pop() // data remove
+        console.log('my store with pop', store);
+        store.shift() // data remove from start
+        console.log('my store with shift', store);
+
+        //-------------- condition structure -------------
+        
+        console.log();
+        let roll =0 //prompt('Enter your roll No.')
+        roll =  parseInt(roll) //+roll   // convert string into number
+        console.log(typeof roll);
+        // if (roll > 5) {
+        //     alert('greater condition is true')
+        // } else if (roll < 2){ 
+        //     alert('less condition is true') 
+        // } else alert('Sorry no any condition is true')
+ 
+        // CheckValueCondition(roll)
+
+        //-----Itration Structure -----------
+        const dataArray = [ 'a', 'b', 'c', 'd', "e", 'f']
+        for (let index = 0; index < dataArray.length; index++) {
+            const element = dataArray[index];
+            console.log('element', element);
+            // console.log('number is' + index + 'abc');
+            // console.log(`number is ${index} acaklksdfal;kdfs;lk askdfjk askdfjlk ${index}`);// string litteral
+        }
+
+        //--------- Function -------------------
+        function CheckValueCondition(myRoll) {
+            console.log('param value', myRoll); 
+            if (myRoll > 5) {
+            alert('greater condition is true')
+        } else if (myRoll < 2){ 
+            alert('less condition is true') 
+        } else alert('Sorry no any condition is true')
+        }
+
+        function sumValues(a, b, c) {
+            let total = a + b + c;
+            return total =90;
+        }
+        
+        const totalSum = sumValues(10, 20, 30)
+        console.log(totalSum);
+
+    </script>
+</body>
+
+</html>

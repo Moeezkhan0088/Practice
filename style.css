@@ -1,0 +1,115 @@
+body {
+    font-family: "Trirong", serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(pexels-leon-ardho-1552242.jpg);
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 445px; */
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid rgb(0, 140, 255); */
+    /* position: absolute;
+    left: 34px;
+    top: 20px; */
+    /* line-height: 6px; */
+    width: 100px;
+    margin: 15px 40px;
+}
+
+/* .left image{
+    width: -1px;
+    margin: 0px;
+    padding: 0px; 
+}*/
+
+.mid {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 15px 40px;
+    /* border: 2px solid green; */
+}
+
+.right {
+    /* position: absolute;
+    right: 34px;
+    top: 20px; */
+    display: flex;
+    /* border: 2px solid yellow; */
+    margin: 15px 12px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 18px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+header {
+    display: flex;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 1px 4px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Trirong", serif;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: rgb(107, 96, 96);
+}
+
+.conatiner {
+    /* border: 2px solid green; */
+    margin: 2px 2px;
+    padding: 2px px;
+    width: 33%;
+    border-radius: 2px;
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 34px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+h1{
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin: 41px 141px;
+}
